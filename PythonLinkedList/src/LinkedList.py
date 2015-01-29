@@ -21,7 +21,6 @@ class LinkedList(object):
     classdocs
     '''
 
-
     def __init__(self):
         '''
         Constructor
@@ -33,7 +32,7 @@ class LinkedList(object):
         self.head = None
         self.size = 0
     
-    def size(self):
+    def getSize(self):
         return self.size
     
     def addToBack(self, data):
